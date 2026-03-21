@@ -1,0 +1,141 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - heading "Dropdown" [level=1] [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Select the apple using visible text
+            - combobox [ref=e37] [cursor=pointer]:
+              - option "Select Fruit" [selected]
+              - option "Apple"
+              - option "Mango"
+              - option "Orange"
+              - option "Banana"
+              - option "Pine Apple"
+          - generic [ref=e38]:
+            - generic [ref=e39]: Select your super hero's
+            - listbox [ref=e42] [cursor=pointer]:
+              - option "Ant-Man" [ref=e43]
+              - option "Aquaman" [ref=e44]
+              - option "The Avengers" [ref=e45]
+              - option "Batman" [ref=e46]
+              - option "Batwoman" [ref=e47]
+              - option "Black Panther" [ref=e48]
+              - option "Captain America" [ref=e49]
+              - option "Captain Marvel" [ref=e50]
+              - option "Daredevil" [ref=e51]
+              - option "Doc Savage" [ref=e52]
+              - option "Doctor Strange" [ref=e53]
+              - option "Elektra" [ref=e54]
+              - option "Fantastic Four" [ref=e55]
+              - option "Ghost Rider" [ref=e56]
+              - option "Green Lantern" [ref=e57]
+              - option "Guardians of the Galaxy" [ref=e58]
+              - option "Hellboy" [ref=e59]
+              - option "Incredible Hulk" [ref=e60]
+              - option "Iron Man" [ref=e61]
+              - option "Marvelman" [ref=e62]
+              - option "Robin" [ref=e63]
+              - option "The Shadow" [ref=e64]
+              - option "Spider-Man" [ref=e65]
+              - option "Supergirl" [ref=e66]
+              - option "Superman" [ref=e67]
+              - option "Thor" [ref=e68]
+              - option "Wolverine" [ref=e69]
+              - option "Wonder Woman" [ref=e70]
+              - option "e=\"xm\"X-Men" [ref=e71]
+          - generic [ref=e72]:
+            - generic [ref=e73]: Select the last programming language and print all the options
+            - combobox [ref=e76] [cursor=pointer]:
+              - option "JavaScript" [selected]
+              - option "Java"
+              - option "Python"
+              - option "Swift"
+              - option "C#"
+          - generic [ref=e77]:
+            - generic [ref=e78]: Select India using value & print the selected value
+            - combobox [ref=e80] [cursor=pointer]:
+              - option "Argentina" [selected]
+              - option "Bolivia"
+              - option "Brazil"
+              - option "Chile"
+              - option "Colombia"
+              - option "Ecuador"
+              - option "India"
+              - option "Paraguay"
+              - option "Peru"
+              - option "Suriname"
+              - option "Uruguay"
+              - option "Venezuela"
+          - text: 
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: Insight
+            - generic [ref=e88] [cursor=pointer]: 
+          - generic [ref=e90]:
+            - text: On completion of this exercise, you can learn the following concepts.
+            - list [ref=e91]:
+              - listitem [ref=e92]: selectByVisibleText()
+              - listitem [ref=e93]: isMultiple()
+              - listitem [ref=e94]: How to select mutiple values
+              - listitem [ref=e95]: selectByIndex()
+              - listitem [ref=e96]: getOptions()
+              - listitem [ref=e97]: selectByValue()
+              - listitem [ref=e98]: getFirstSelectedOption()
+          - iframe [ref=e99]
+          - button "Watch tutorial" [ref=e101] [cursor=pointer]
+        - generic [ref=e102]:
+          - generic:
+            - generic:
+              - generic:
+                - insertion
+      - generic [ref=e104]:
+        - generic:
+          - generic:
+            - generic:
+              - insertion
+    - generic [ref=e105]:
+      - insertion [ref=e107]:
+        - iframe [ref=e109]
+      - contentinfo [ref=e110]:
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - paragraph [ref=e114]: LetCode by Koushik Chatterjee
+            - paragraph [ref=e115]: Empowering Test Automation Engineers through learning
+          - generic [ref=e116]:
+            - insertion [ref=e118]:
+              - iframe [ref=e120]
+            - paragraph [ref=e121]:
+              - text: © 2025 LetCode | Created by
+              - link "Koushik Chatterjee" [ref=e122] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/ortoni/
+              - text: "&"
+              - link "Bollineni Lakshmi Yaswanth" [ref=e123] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - iframe [ref=e124]
+  - insertion [ref=e126]:
+    - iframe [ref=e128]
+  - insertion [ref=e129]:
+    - iframe [ref=e132]
+```
